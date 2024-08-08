@@ -1,5 +1,8 @@
 <div align="center">
-<img src="./docs/images/ent.svg" alt="预览"/>
+
+<a href='#企业版'>
+  <img src="./docs/images/ent.svg" alt="icon"/>
+</a>
 
 <h1 align="center">NextChat</h1>
 
@@ -169,6 +172,20 @@ ByteDance Api Url.
 
 阿里云（千问）Api Url.
 
+### `IFLYTEK_URL` (可选)
+
+讯飞星火Api Url.
+
+### `IFLYTEK_API_KEY` (可选)
+
+讯飞星火Api Key.
+
+### `IFLYTEK_API_SECRET` (可选)
+
+讯飞星火Api Secret.
+
+
+
 ### `HIDE_USER_API_KEY` （可选）
 
 如果你不想让用户自行填入 API Key，将此环境变量设置为 1 即可。
@@ -214,6 +231,15 @@ ByteDance Api Url.
 ### `DEFAULT_INPUT_TEMPLATE` （可选）
 
 自定义默认的 template，用于初始化『设置』中的『用户输入预处理』配置项
+
+### `STABILITY_API_KEY` (optional)
+
+Stability API密钥
+
+### `STABILITY_URL` (optional)
+
+自定义的Stability API请求地址
+
 
 ## 开发
 
